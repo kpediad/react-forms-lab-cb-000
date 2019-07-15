@@ -4,9 +4,7 @@ class LoginForm extends React.Component {
   constructor() {
     super();
 
-    this.state = {
-      username: ''
-    };
+    this.state = {};
   }
 
   render() {
@@ -15,7 +13,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="username" name="username" type="text" value={this.state.username} />
+            <input id="username" name="username" type="text" />
           </label>
         </div>
         <div>
